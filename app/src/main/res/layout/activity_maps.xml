@@ -16,7 +16,19 @@
         android:id="@+id/icesi_img"
         android:layout_width="200dp"
         android:layout_height="100dp"
+        android:src="@drawable/icesi"
+        android:visibility="gone"
+        android:background="#66000000"
         android:layout_alignParentBottom="true"
         android:layout_centerHorizontal="true"/>
+
+    <TextView
+        android:id="@+id/distance_tv"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:background="#66FFFFFF"
+        android:text="Distance"
+        android:gravity="center"
+        android:textSize="16sp"/>
 
 </RelativeLayout>
